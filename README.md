@@ -1,4 +1,4 @@
-# SDF-Sphere-Tracing
+# SDF Sphere Tracing
 Upgraded from Pixar postcard path tracing, this program print my name and pose to be a more challenging task than printing the word Pixar. The upgraded version is also more readable and run 9x faster than the original source code.
 
 # Gallery
