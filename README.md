@@ -1,3 +1,5 @@
+Thank You xJayLee for starring me seven of your precious stars, Thank you for your generosity, May God on your side, Happy Coding!
+
 # SDF Sphere Tracing
 Upgraded from Pixar postcard path tracing, this program print my name and pose to be a more challenging task than printing the word Pixar. The upgraded version is also more readable and run 9x faster than the original source code.
 
