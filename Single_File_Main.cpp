@@ -381,6 +381,7 @@ struct Arc
 	}
 };
 
+
 enum { DIFFUSE, LETTER, ARC, SUN };
 
 
