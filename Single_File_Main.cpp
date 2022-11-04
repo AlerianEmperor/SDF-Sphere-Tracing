@@ -331,6 +331,12 @@ static vec3 calcNormal(const vec3& p, Shape* shp)
 //because when computing normal of letter
 //we only compute distance to letter
 
+//Arc was used to create all the curve letter
+//Arc Distance Formula
+//https://www.shadertoy.com/view/wl23RK
+//however this formula only apply for 2D
+//so we must first project the vector "pos" (calculate by substract the point in space to the center of the curve)
+//float x = pos.x * sca_cos - pos.y * sca_sin; float y = pos.x * sca_sin + pos.y * sca_cos; is the projection coordinates
 struct Arc
 {
 	vec3 arc_center;
