@@ -403,7 +403,7 @@ static float subtract(const float& d1, const float& d2)
 
 void initialize_characters(vector<vec3>& characters, vector<Arc>& arc, Box*& surronding_bbox)
 {
-		
+	//S	
 	Arc sphere_upper_arc(vec3(-10.95f, 5.27f, depth), thicc, 315.0f, 135.0f, 1.75f, depth);
 	Arc sphere_lower_arc(vec3(-11.0f, 1.75f, depth), thicc, 135.0f, 135.0f, 1.75f, depth);
 
