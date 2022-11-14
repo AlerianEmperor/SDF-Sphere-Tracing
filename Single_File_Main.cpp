@@ -493,12 +493,12 @@ void initialize_characters(vector<vec3>& characters, vector<Arc>& arc, Box*& sur
 	float right_most = 12.0f + thicc + offset;//G
 
 	float upper_most = 5.275f + 1.75f + thicc + offset;//S
-	float underware_most = 0.0f - thicc - offset;//everyone
+	float underwear_most = 0.0f - thicc - offset;//everyone
 
 	float front_most = depth + thicc + offset;//everyone
 	float back_most = depth - thicc - offset;//everyone
 
-	surronding_bbox = new Box(vec3(left_most, underware_most, back_most), vec3(right_most, upper_most, front_most));
+	surronding_bbox = new Box(vec3(left_most, underwear_most, back_most), vec3(right_most, upper_most, front_most));
 }
 
 
