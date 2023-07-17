@@ -145,7 +145,7 @@ float a = 0.4f;
 vec3 ambient(a, a, a);
 
 float depth = 0;
-float chracter_width = 4.0f;
+float chracter_width = 4.07902432575f;//4.0f;
 float character_height = 6.6f;
 float distance_between_chracters = 2.0f;
 
